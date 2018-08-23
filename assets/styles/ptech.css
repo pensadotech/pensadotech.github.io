@@ -5,7 +5,7 @@ body {
     /* Fix background during scrolling */
     background-attachment: fixed;
     /* Use scalable background image (cross borwser) */
-    background-image: url("../images/coast.jpg");
+    background-image: url("../images/clouds-3526558_1920.jpg");
     background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -54,8 +54,8 @@ body {
 
 /* Header ............................................... */
 
-header h3 {
-    color: white;
+.brandName {
+    color: rgb(216, 215, 219);
 }
 
 .header a {
@@ -82,11 +82,86 @@ a:hover {
     min-height: 800px;
 }
 
+.personalImageHolder {
+    margin: 20px 0px 20px 0px;
+}
+
+.personalImage {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.perLinkGroup {
+    margin: 20px 10px 20px 20px;
+}
+
+.perLinkFstRow {
+    margin: 5px 0px 20px 0px;
+}
+
+.perLinkImgHolder {
+    position: relative;
+    margin-right: 5px;
+}
+
+.perLinkImg {
+    width: 40px;
+    padding-left: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.perLinkImg:hover {
+    width: 45px;
+}
+
+.topSubtitle {
+    padding-top: 20px;
+}
+
+.otherSubtitle {
+    padding-top: 10px;
+}
 
 /*  Footer ..................................... */
+
 .footer {
     color: white;
     /* Controling the size of a jumbotron */
     padding-top: 10px;
     padding-bottom: 10px;
-  }
+}
+
+/* Portfolio .................................. */
+
+.portfImg {
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.portfRefImg {
+    width: 40px;
+    padding-left: 0px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+/* Contact form ............................. */
+
+.divider {
+    background-color: rgb(77, 118, 153);
+    height: 5px;
+    width: 98%;
+    margin: 0px 5px 0px 5px;
+}
+
+.contactForm {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

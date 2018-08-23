@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <!-- Menu left aligned (ml-auto) ref: https://stackoverflow.com/questions/41513463/bootstrap-4-align-navbar-items-to-the-right -->
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ml-auto active">
+                    <li class="nav-item ml-auto">
                         <a class="nav-link" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item ml-auto">
@@ -46,7 +46,7 @@
                     <li class="nav-item ml-auto">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item ml-auto">
+                    <li class="nav-item ml-auto active">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -103,56 +103,39 @@
                         </div>
                     </div>
 
-                    <h5>Interesting links</h5>
-
-                    <ul class="nav nav-pills flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="https://www.nasa.gov/" target="_blank">NASA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="https://fonts.google.com/" target="_blank">Google Fonts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="https://getbootstrap.com/" target="_blank">Bootsrap</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="https://flexboxfroggy.com/" target="_blank">flexbox froggy</a>
-                        </li>
-                    </ul>
-
                 </div>
                 <!-- column 2 -->
                 <div class="col-sm-8">
-                    <h3 class="topSubtitle">Welcome! </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quae natus. Consequatur maxime aperiam eligendi, repudiandae
-                        delectus quaerat soluta iste odio inventore natus, ad saepe in cupiditate. Nostrum, quis atque? Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quae natus. Consequatur maxime aperiam
-                        eligendi, repudiandae delectus quaerat soluta iste odio inventore natus, ad saepe in cupiditate.
-                        Nostrum, quis atque?
-                    </p>
-
-                    <h3 class=".otherSubtitle">Projects</h3>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quae natus. Consequatur maxime aperiam eligendi, repudiandae
-                        delectus quaerat soluta iste odio inventore natus, ad saepe in cupiditate. Nostrum, quis atque? Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quae natus. Consequatur maxime aperiam
-                        eligendi, repudiandae delectus quaerat soluta iste odio inventore natus, ad saepe in cupiditate.
-                        Nostrum, quis atque?
-                    </p>
-
-
-                    <h3 class=".otherSubtitle">Games</h3>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quae natus. Consequatur maxime aperiam eligendi, repudiandae
-                        delectus quaerat soluta iste odio inventore natus, ad saepe in cupiditate. Nostrum, quis atque? Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quae natus. Consequatur maxime aperiam
-                        eligendi, repudiandae delectus quaerat soluta iste odio inventore natus, ad saepe in cupiditate.
-                        Nostrum, quis atque?
-                    </p>
-
+                    <div class="row">
+                        <div class="col-sm-12 topSubtitle">
+                            <h2>Contact</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="divider"> </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <form class="contactForm">
+                                <div class="form-group">
+                                    <label for="fname">Name</label>
+                                    <input type="text" class="form-control" name="fullName" id="fname" placeholder="Your name..">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="Your email..">
+                                </div>
+                                <div class="form-group">
+                                    <label for="fname">Message</label>
+                                    <textarea name="emailMsg" class="form-control" id="emailMsg" placeholder="Write your message here..." maxlength="600" cols="30"
+                                        rows="10"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 <!-- column 2 end -->
 

@@ -17,11 +17,11 @@ body {
 
 .gradBlue {
     /* Gradient for NavBar */
-    background-image: -webkit-linear-gradient( top, #003A6C, gray);
-    background-image: -moz-linear-gradient( top, #003A6C, gray);
-    background-image: -ms-linear-gradient( top, #003A6C, gray);
-    background-image: -o-linear-gradient( top, #003A6C, gray);
-    background-image: linear-gradient( top, #003A6C, gray);
+    background-image: -webkit-linear-gradient(top, #003A6C, gray);
+    background-image: -moz-linear-gradient(top, #003A6C, gray);
+    background-image: -ms-linear-gradient(top, #003A6C, gray);
+    background-image: -o-linear-gradient(top, #003A6C, gray);
+    background-image: linear-gradient(top, #003A6C, gray);
 }
 
 .imgRnd10 {
@@ -53,7 +53,6 @@ body {
 }
 
 /* Header ............................................... */
-
 .brandName {
     color: rgb(216, 215, 219);
 }
@@ -71,7 +70,6 @@ a:hover {
 }
 
 /* Container ........................................... */
-
 .container {
     background-color: #DBE9F4;
     /* Transparent background */
@@ -126,7 +124,6 @@ a:hover {
 }
 
 /*  Footer ..................................... */
-
 .footer {
     color: white;
     /* Controling the size of a jumbotron */
@@ -135,11 +132,11 @@ a:hover {
 }
 
 /* Portfolio .................................. */
-
 .portfImg {
-    width: 100px;
-    margin-top: 5px;
-    margin-left: 5px;
+    width: 100%;
+    margin: 5px;
+   padding: 5px;
+   border: 2px solid lightgray;
 }
 
 .portfRefImg {
@@ -148,11 +145,12 @@ a:hover {
 }
 
 .card {
-    margin-top: 20px;
+    margin: 20px;
+    background-color:lightgray;
 }
 
-/* Contact form ............................. */
 
+/* Contact form ............................. */
 .divider {
     background-color: rgb(77, 118, 153);
     height: 5px;

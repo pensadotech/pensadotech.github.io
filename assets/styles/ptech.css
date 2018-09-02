@@ -163,3 +163,17 @@ a:hover {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.leftContaner {
+  border
+}
+
+/* mefia queries .............................. */
+/* and (min-width: 576px) */
+@media screen and (max-width: 576px)  {
+    
+    div.leftContaner {
+      display: none;
+    }
+    
+  }

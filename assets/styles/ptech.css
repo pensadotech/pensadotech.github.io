@@ -135,8 +135,8 @@ a:hover {
 .portfImg {
     width: 100%;
     margin: 5px;
-   padding: 5px;
-   border: 2px solid lightgray;
+    padding: 5px;
+    border: 2px solid lightgray;
 }
 
 .portfRefImg {
@@ -146,9 +146,8 @@ a:hover {
 
 .card {
     margin: 20px;
-    background-color:lightgray;
+    background-color: lightgray;
 }
-
 
 /* Contact form ............................. */
 .divider {
@@ -164,13 +163,9 @@ a:hover {
     padding-right: 10px;
 }
 
-
 /* mefia queries .............................. */
-/* and (min-width: 576px) */
-@media screen and (max-width: 576px)  {
-    
+@media screen and (max-width: 576px) {
     div.leftContaner {
-      display: none;
+        display: none;
     }
-    
-  }
+}

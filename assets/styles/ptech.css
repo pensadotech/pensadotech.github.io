@@ -90,6 +90,16 @@ a:hover {
     margin-left: 20px;
 }
 
+.contactImageHolder {
+    margin: 20px 0px 20px 0px;
+}
+
+.contactImage {
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .perLinkGroup {
     margin: 20px 10px 20px 20px;
 }

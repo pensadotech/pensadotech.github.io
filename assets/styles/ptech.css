@@ -5,7 +5,7 @@ body {
     /* Fix background during scrolling */
     background-attachment: fixed;
     /* Use scalable background image (cross borwser) */
-    background-image: url("../images/clouds-3526558_1920.jpg");
+    background-image: url("../images/Background.jpg");
     background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -40,16 +40,18 @@ body {
 
 .imageShadow {
     /* Add drop shadow */
-    -webkit-box-shadow: 2px 2px 3px 2px gray;
-    -moz-box-shadow: 2px 2px 3px 2px gray;
-    box-shadow: 2px 2px 3px 2px gray;
+    -webkit-box-shadow: 2px 7px 7px 2px gray;
+    -moz-box-shadow: 2px 7px 7px 2px gray;
+    box-shadow: 2px 7px 7px 2px gray;
 }
 
-.divider {
-    background-color: rgb(77, 118, 153);
-    height: 5px;
-    width: 95%;
-    margin-left: 10px;
+.imageRotate {
+    /* Rotate Image */
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
 }
 
 /* Header ............................................... */
@@ -69,19 +71,60 @@ a:hover {
     width: 40px;
 }
 
-/* Container ........................................... */
-.container {
-    background-color: #DBE9F4;
-    /* Transparent background */
-    opacity: 0.9;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* Set min height to fill larger screens */
-    min-height: 800px;
+/*  Footer ..................................... */
+.footer {
+    color: white;
+    /* Controling the size of a jumbotron */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+.redBorder {
+    border: 2px solid red;
+}
+
+.grayBorder {
+    border: 2px solid gray;
+}
+
+.divider {
+    background-color: rgb(77, 118, 153);
+    height: 5px;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.topSubtitle {
+    padding-top: 20px;
+    margin-left: 3%;
+    color: lightgray;
+}
+
+.contentEnvelop {
+    background-color: #DBE9F4;
+    opacity: 0.8;
+    margin: 2% 5% 2% 7%;
+    padding-bottom: 20px;   
+}
+
+.sectionHeader {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 3%;
+}
+
+.sectionContent {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
+/* Personal image ...............................*/
 .personalImageHolder {
-    margin: 20px 0px 20px 0px;
+    margin: 40px 0px 20px 0px;
 }
 
 .personalImage {
@@ -90,16 +133,10 @@ a:hover {
     margin-left: 20px;
 }
 
-.contactImageHolder {
-    margin: 20px 0px 20px 0px;
+.personalHeader {
+  color:white;  
 }
-
-.contactImage {
-    width: 300px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
+/* Personla links ............................*/
 .perLinkGroup {
     margin: 20px 10px 20px 20px;
 }
@@ -125,57 +162,98 @@ a:hover {
     width: 45px;
 }
 
-.topSubtitle {
-    padding-top: 20px;
+/* Contact imaes and links ...................... */
+.contactEnvelopLinks {
+    /* background-color: #DBE9F4;
+    opacity: 0.8; */
+    margin: 2% 5% 2% 10%;
+    padding-bottom: 20px; ;   
 }
 
-.otherSubtitle {
-    padding-top: 10px;
+.contactImage {
+    width: 50px;
+    margin: 15px 0px 0px 0px;
 }
 
-/*  Footer ..................................... */
-.footer {
-    color: white;
-    /* Controling the size of a jumbotron */
-    padding-top: 10px;
-    padding-bottom: 10px;
+.contactImage:hover {
+    width: 55px;
 }
 
-/* Portfolio .................................. */
-.portfImg {
-    width: 100%;
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid lightgray;
+.contactLinks {
+    /* margin: 20px 0px 0px 0px; */
+    margin: 25px 0px 0px 0px;
 }
 
-.portfRefImg {
-    width: 40px;
+/* Article Cards ................................... */
+.card {
+    margin: 20px;
+    width: 160px;
+    height: 150px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    margin-top: 3px;
+}
+
+.card:hover {
+    width: 170px;
+    border: 3px solid blue;
+}
+
+/* Articles .......................................*/
+.articleTitle {
+    color: rgb(3, 3, 121);
+    font-weight: bolder;
+}
+
+.articleSubtitle {
+    color: gray;
+}
+
+.elementCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleLinkImg:hover {
+    font-size: 35px;
+}
+
+.articleLinkImg {
+    width: 30px;
     padding-left: 0px;
 }
 
-.card {
-    margin: 20px;
-    background-color: lightgray;
+/*  Image sizes ...................................... */
+.articleImage40 {
+    width: 40%;
 }
 
-/* Contact form ............................. */
-.divider {
-    background-color: rgb(77, 118, 153);
-    height: 5px;
-    width: 98%;
-    margin: 0px 5px 0px 5px;
+.articleImage50 {
+    width: 50%;
 }
 
-.contactForm {
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+.articleImage60 {
+    width: 60%;
 }
 
-/* mefia queries .............................. */
-@media screen and (max-width: 576px) {
-    div.leftContaner {
-        display: none;
-    }
+.articleImage70 {
+    width: 70%;
+}
+
+.articleImage80 {
+    width: 80%;
+}
+
+.articleImage90 {
+    width: 90%;
+}
+
+.articleImage100 {
+    width: 100%;
 }

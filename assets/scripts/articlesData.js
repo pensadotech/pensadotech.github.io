@@ -170,7 +170,7 @@ var dataArr = [{
   title: 'Friend Finder',
   subtitle: 'Node JS',
   image: 'friends.jpg',
-  imageSize: '60',
+  imageSize: '80',
   imageSizeDetail:'60',
   description1:'The application was made using Node JS and Express, and offers a good example how to put them together to create a server application. ',
   description2:'Express simplify a great deal the server programming side. The application encapsulates html and API routes in different custom modules, ',

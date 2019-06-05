@@ -104,7 +104,7 @@ a:hover {
     background-color: #DBE9F4;
     opacity: 0.8;
     margin: 2% 5% 2% 7%;
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
 }
 
 .sectionHeader {
@@ -134,8 +134,9 @@ a:hover {
 }
 
 .personalHeader {
-  color:white;  
+    color: white;
 }
+
 /* Personla links ............................*/
 .perLinkGroup {
     margin: 20px 10px 20px 20px;
@@ -162,26 +163,30 @@ a:hover {
     width: 45px;
 }
 
-/* Contact imaes and links ...................... */
-.contactEnvelopLinks {
-    /* background-color: #DBE9F4;
-    opacity: 0.8; */
-    margin: 2% 5% 2% 10%;
-    padding-bottom: 20px; ;   
-}
-
-.contactImage {
-    width: 50px;
-    margin: 15px 0px 0px 0px;
-}
-
-.contactImage:hover {
-    width: 55px;
-}
-
 .contactLinks {
-    /* margin: 20px 0px 0px 0px; */
-    margin: 25px 0px 0px 0px;
+    font-size: 28px;
+}
+
+/* media queries .............................. */
+/* Intermediate tables */
+@media screen and (max-width: 1200px) and (min-width: 986px) {
+    .contactLinks {
+        font-size: 24px;
+    }
+}
+
+/* Small tables */
+@media screen and (max-width: 985px) and (min-width: 576px) {
+    .contactLinks {
+        font-size: 18px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+    .contactLinks {
+        font-size: 28px;
+    }
 }
 
 /* Article Cards ................................... */

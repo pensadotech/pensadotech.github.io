@@ -276,7 +276,7 @@ var dataArr = [{
   description6:'',
   description7:'',
   sourceCode: 'https://github.com/pensadotech/NewsMongoScraper',
-  url: 'https://salty-headland-55596.herokuapp.com/',
+  url: '',
   sourceCodeIcon:'git.png',
   urlIcon: 'heroku.png'
 },

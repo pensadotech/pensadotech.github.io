@@ -51,9 +51,6 @@
    if( article.description6 != undefined) fullDescription += article.description6
    if( article.description7 != undefined) fullDescription += article.description7
     
-   console.log(article.description7)
-   console.log(article.description7 == undefined)
-
    // clear Modal content
    modalContent.innerHTML = ''
 

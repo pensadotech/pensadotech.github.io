@@ -42,13 +42,14 @@
    // load selected article base on ID
    // the ID start from 1, and array starts from zero
    article = dataArr[articleId - 1]
-   let fullDescription = article.description1 
-                       + article.description2 
-                       + article.description3 
-                       + article.description4 
-                       + article.description5 
-                       + article.description6 
-                       + article.description7
+   let fullDescription = article.description1
+   
+   if( article.description2 != '') fullDescription += article.description2
+   if( article.description3 != '') fullDescription += article.description3
+   if( article.description4 != '') fullDescription += article.description4
+   if( article.description5 != '') fullDescription += article.description5
+   if( article.description6 != '') fullDescription += article.description6
+   if( article.description7 != '') fullDescription += article.description7
 
    // clear Modal content
    modalContent.innerHTML = ''

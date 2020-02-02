@@ -44,13 +44,13 @@
    article = dataArr[articleId - 1]
    let fullDescription = article.description1
    
-   if( article.description2 != '') fullDescription += article.description2
-   if( article.description3 != '') fullDescription += article.description3
-   if( article.description4 != '') fullDescription += article.description4
-   if( article.description5 != '') fullDescription += article.description5
-   if( article.description6 != '') fullDescription += article.description6
-   if( article.description7 != '') fullDescription += article.description7
-
+   if( article.description2 != undefined) fullDescription += article.description2
+   if( article.description3 != undefined) fullDescription += article.description3
+   if( article.description4 != undefined) fullDescription += article.description4
+   if( article.description5 != undefined) fullDescription += article.description5
+   if( article.description6 != undefined) fullDescription += article.description6
+   if( article.description7 != undefined) fullDescription += article.description7
+    
    // clear Modal content
    modalContent.innerHTML = ''
 

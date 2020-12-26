@@ -123,7 +123,7 @@ var dataArr = [{
   description6:'',
   description7:'',
   sourceCode: 'https://github.com/pensadotech/CryptoWatcher',
-  url: 'https://pensadotech.github.io/CryptoWatcher/',
+  url: '',
   sourceCodeIcon:'git.png',
   urlIcon: 'githubPage.jpg'
 },
@@ -238,7 +238,7 @@ var dataArr = [{
   description6:'inventory is affected, and also the usage totals is increased. The totals are used to build a chart ',
   description7:'that provides a graphical representation of user’s preferences, using google charts.',
   sourceCode: 'https://github.com/pensadotech/Biblioteca2',
-  url: 'https://calm-beyond-10152.herokuapp.com/',
+  url: '',
   sourceCodeIcon:'git.png',
   urlIcon: 'heroku.png'
 },
@@ -295,7 +295,7 @@ var dataArr = [{
   description6:'',
   description7:'',
   sourceCode: 'https://github.com/pensadotech/ClickyGame',
-  url: 'https://glacial-hamlet-43195.herokuapp.com/',
+  url: '',
   sourceCodeIcon:'git.png',
   urlIcon: 'heroku.png'
 },
@@ -333,7 +333,7 @@ var dataArr = [{
   description6:'',
   description7:'',
   sourceCode: 'https://github.com/pensadotech/NasaMern',
-  url: 'https://calm-oasis-74689.herokuapp.com/',
+  url: '',
   sourceCodeIcon:'git.png',
   urlIcon: 'heroku.png'
 },
@@ -353,7 +353,7 @@ var dataArr = [{
   description6:'and the capability to send emails for Appointments and user accounts.',
   description7:'',
   sourceCode: 'https://github.com/pensadotech/VetClicnic',
-  url: 'https://shrouded-headland-76789.herokuapp.com/',
+  url: '',
   sourceCodeIcon:'git.png',
   urlIcon: 'heroku.png'
 },

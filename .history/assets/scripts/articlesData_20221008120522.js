@@ -357,8 +357,9 @@ var dataArr = [{
   sourceCodeIcon:'git.png',
   urlIcon: 'heroku.png'
 },
+
 {
-  articleId: 20,
+  articleId: 21,
   title: 'Clicky Game',
   subtitle: 'Angular',
   image: 'clickGame.png',
@@ -372,25 +373,6 @@ var dataArr = [{
   description6:'',
   description7:'',
   sourceCode: 'https://github.com/pensadotech/ClickyGameNg',
-  url: '',
-  sourceCodeIcon:'git.png',
-  urlIcon: 'heroku.png'
-},
-{
-  articleId: 21,
-  title: 'Time Converter',
-  subtitle: 'WPF .NET',
-  image: 'time.jpeg',
-  imageSize: '70',
-  imageSizeDetail:'50',
-  description1:'This project is a NET WPF application and it is a very simple application with functionality to ',
-  description2:'convert time into second since midnight and vice versa. Although, it is a very simple concept, ',
-  description3:'the exercise presents a .NET application with several formalities, by dividing functionality into ',
-  description4:'layers, including clear separation concerns, and seams for dependency injection. The exercise takes ',
-  description5:'advantage of dependency injection using Microsoft Unity and unit testing using MOQ. This projects ',
-  description6:'also uses mahapps.metro styling for WPF applications, which is a simple way to provide a metro-style ',
-  description7:'user interface (e.g. Window 10 style).',
-  sourceCode: 'https://github.com/pensadotech/TimeConverter',
   url: '',
   sourceCodeIcon:'git.png',
   urlIcon: 'heroku.png'

@@ -390,7 +390,7 @@ var dataArr = [{
   description5:'user selects more cards, it will be harder to remember what card has been selected already.  ',
   description6:'',
   description7:'',
-  sourceCode: 'https://github.com/pensadotech/ClickyGameNg',
+  sourceCode: 'https://github.com/pensadotech/ClickyGame',
   url: '',
   sourceCodeIcon:'git.png',
   urlIcon: 'heroku.png'

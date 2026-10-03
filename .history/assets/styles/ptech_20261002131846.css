@@ -4,7 +4,7 @@ body {
     padding: 0;
     /* Fix background during scrolling */
     background-attachment: fixed;
-    /* Use scalable background image (cross browser) */
+    /* Use scalable background image (cross borwser) */
     background-image: url("../images/Background.jpg");
     background-position: center center;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ a:hover {
 /*  Footer ..................................... */
 .footer {
     color: white;
-    /* Controlling the size of a jumbotron */
+    /* Controling the size of a jumbotron */
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -137,7 +137,7 @@ a:hover {
     color: white;
 }
 
-/* Personal links ............................*/
+/* Personla links ............................*/
 .perLinkGroup {
     margin: 20px 10px 20px 20px;
 }

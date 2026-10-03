@@ -107,8 +107,10 @@ var dataArr = [{
   sourceCodeIcon:'git.png',
   urlIcon: 'githubPage.jpg'
 },
+
+
 {
-  articleId: 7,
+  articleId: 8,
   title: 'Liri Bot',
   subtitle: 'Node JS',
   image: 'bot.png',
@@ -127,7 +129,7 @@ var dataArr = [{
   urlIcon: ''
 },
 {
-  articleId: 8,
+  articleId: 9,
   title: 'Word Games',
   subtitle: 'Node JS',
   image: 'wordgame.png',
@@ -146,7 +148,7 @@ var dataArr = [{
   urlIcon: 'githubPage.jpg'
 },
 {
-  articleId: 9,
+  articleId: 10,
   title: 'Friend Finder',
   subtitle: 'Node JS',
   image: 'friends.jpg',
@@ -165,7 +167,7 @@ var dataArr = [{
   urlIcon: 'githubPage.jpg'
 },
 {
-  articleId: 10,
+  articleId: 11,
   title: 'Reading List',
   subtitle: 'Node JS',
   image: 'Reading.jpg',
@@ -184,7 +186,7 @@ var dataArr = [{
   urlIcon: 'githubPage.jpg'
 },
 {
-  articleId: 11,
+  articleId: 12,
   title: 'Bamazon Store',
   subtitle: 'Node JS',
   image: 'onlinestore.png',
@@ -204,7 +206,7 @@ var dataArr = [{
 },
 
 {
-  articleId: 12,
+  articleId: 13,
   title: 'Library',
   subtitle: 'Node JS',
   image: 'BookLibrary.jpg',
@@ -223,7 +225,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 13,
+  articleId: 14,
   title: 'Secure site',
   subtitle: 'Node JS',
   image: 'ScureSite.jpg',
@@ -242,7 +244,7 @@ var dataArr = [{
   urlIcon: 'githubPage.jpg'
 },
 {
-  articleId: 14,
+  articleId: 15,
   title: 'NASA news',
   subtitle: 'Node JS',
   image: 'nasaTransp.png',
@@ -261,7 +263,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 15,
+  articleId: 16,
   title: 'Clicky Game',
   subtitle: 'Node JS',
   image: 'clickGame.png',
@@ -280,7 +282,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 16,
+  articleId: 17,
   title: 'New MERN App',
   subtitle: 'MERN',
   image: 'MERN.png',
@@ -299,7 +301,7 @@ var dataArr = [{
   urlIcon: ''
 },
 {
-  articleId: 17,
+  articleId: 18,
   title: 'NASA news',
   subtitle: 'MERN',
   image: 'nasaTransp.png',
@@ -319,7 +321,7 @@ var dataArr = [{
 },
 
 {
-  articleId: 18,
+  articleId: 19,
   title: 'Vet Clinic',
   subtitle: 'MERN',
   image: 'paw-print1.jpg',
@@ -338,7 +340,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 19,
+  articleId: 20,
   title: 'Clicky Game',
   subtitle: 'Angular',
   image: 'clickGame.png',
@@ -357,7 +359,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 20,
+  articleId: 21,
   title: 'Time Converter',
   subtitle: 'WPF .NET',
   image: 'time.jpeg',

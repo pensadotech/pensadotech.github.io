@@ -261,7 +261,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 15,
+  articleId: 16,
   title: 'Clicky Game',
   subtitle: 'Node JS',
   image: 'clickGame.png',
@@ -280,7 +280,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 16,
+  articleId: 17,
   title: 'New MERN App',
   subtitle: 'MERN',
   image: 'MERN.png',
@@ -299,7 +299,7 @@ var dataArr = [{
   urlIcon: ''
 },
 {
-  articleId: 17,
+  articleId: 18,
   title: 'NASA news',
   subtitle: 'MERN',
   image: 'nasaTransp.png',
@@ -319,7 +319,7 @@ var dataArr = [{
 },
 
 {
-  articleId: 18,
+  articleId: 19,
   title: 'Vet Clinic',
   subtitle: 'MERN',
   image: 'paw-print1.jpg',
@@ -338,7 +338,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 19,
+  articleId: 20,
   title: 'Clicky Game',
   subtitle: 'Angular',
   image: 'clickGame.png',
@@ -357,7 +357,7 @@ var dataArr = [{
   urlIcon: 'heroku.png'
 },
 {
-  articleId: 20,
+  articleId: 21,
   title: 'Time Converter',
   subtitle: 'WPF .NET',
   image: 'time.jpeg',

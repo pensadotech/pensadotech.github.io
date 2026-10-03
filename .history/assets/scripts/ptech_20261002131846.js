@@ -1,4 +1,4 @@
- // get HTML for the display area
+ // get HTML for the deisplay area
  let fileDisplayArea = window.document.getElementById('fileDisplayArea')
  let modalContent = window.document.getElementById('modalContent')
  let selectedArticle = null
